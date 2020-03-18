@@ -108,8 +108,6 @@ public class JsonUtils {
         System.out.println(json);
 
 
-
-
         User user1 = parse(json,User.class);
 
         System.out.println(user1);

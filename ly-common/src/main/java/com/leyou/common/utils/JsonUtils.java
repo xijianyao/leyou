@@ -111,5 +111,7 @@ public class JsonUtils {
         User user1 = parse(json,User.class);
 
         System.out.println(user1);
+
+
     }
 }

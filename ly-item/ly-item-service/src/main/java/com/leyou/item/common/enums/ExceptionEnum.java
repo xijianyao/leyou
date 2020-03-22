@@ -3,7 +3,8 @@ package com.leyou.item.common.enums;
 
 
 public enum ExceptionEnum {
-    PRICE_CANNOT_BE_NULL(400,"price can not be null");
+    PRICE_CANNOT_BE_NULL(400,"price can not be null"),
+    CATEGORY_NOT_FOUND(404,"商品分类没有查到");
 
     ;
     private int code;
